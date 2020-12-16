@@ -146,7 +146,7 @@ body {
   flex: 0 1 192px;
 }
 
-.user {
+.navigation-user {
   padding-left: 10px;
 }
 
@@ -228,6 +228,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-bottom: 16px;
   width: 100%;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -247,7 +248,8 @@ body {
   padding: 9px 16px;
 }
 
-.create-post-content {
+.create-post-content,
+.post-content {
   padding: 16px;
 }
 
@@ -295,4 +297,50 @@ button.tag {
   line-height: 22px;
   color: #595959;
   margin-left: 8px;
+}
+
+.post-content__header {
+  margin-bottom: 16px;
+}
+
+.user-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name-post {
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+  font-weight: 600;
+}
+
+.user-info-post {
+  display: flex;
+  align-items: center;
+}
+
+.user-info-setting {
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+  display: flex;
+  align-items: center;
+}
+
+.user-info-setting::after {
+  content: "";
+  margin: 0 6px;
+  width: 4px;
+  height: 4px;
+  background: #BFBFBF;
+}
+
+.body-content__img {
+  border: 1px solid #BFBFBF;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
