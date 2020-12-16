@@ -195,14 +195,28 @@ body {
   -o-transition: .3s;
 }
 
+.nav-link:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 .nav-link.active {
   background-color: #fff;
   color: #262626;
   font-weight: 600;
 }
 
+.last-link {
+  color: #1890FF;
+  margin-top: 12px;
+  margin-left: 3px;
+}
+
 .nav-text {
   margin-left: 8px;
+}
+
+.last-link .nav-text {
+  margin-left: 12px;
 }
 
 .main {
@@ -271,10 +285,14 @@ button.tag {
   display: flex;
   align-items: center;
   padding: 8px 12px;
+  margin-right: 8px;
+  cursor: pointer;
 }
 
 .tag span {
   font-size: 14px;
+  font-weight: 600;
   line-height: 22px;
   color: #595959;
+  margin-left: 8px;
 }
