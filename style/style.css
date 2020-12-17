@@ -299,8 +299,15 @@ button.tag {
   margin-left: 8px;
 }
 
+.post {
+  margin-bottom: 16px;
+}
+
 .post-content__header {
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .user-description {
@@ -336,6 +343,13 @@ button.tag {
   background: #BFBFBF;
 }
 
+.body-content__text {
+  color: #595959;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+
 .body-content__img {
   border: 1px solid #BFBFBF;
   border-radius: 4px;
@@ -343,4 +357,42 @@ button.tag {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+}
+
+.post-content__body {
+  margin-bottom: 9px;
+}
+
+.post-content__like {
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
+}
+
+.post-content__like span {
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+  margin-left: 4px;
+}
+
+.post-content__footer {
+  border-top: 1px solid #E8E8E8;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 16px;
+
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-content-text {
+  margin-left: 8px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
 }
